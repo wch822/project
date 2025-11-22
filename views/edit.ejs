@@ -1,0 +1,12 @@
+<html>
+	<body>
+		<form action="/update" method="POST" enctype="multipart/form-data">
+			Restaurant ID: <input name="restaurantid" value=<%= restaurant.restaurant_id %>><br>
+			Name:  <input name="restaurantname" value=<%= restaurant.name %> /><br>
+			<input type="hidden" name="_id" value=<%= restaurant._id %>>
+			<input type="submit" value="update">
+		</form>
+		<a href="/details?_id=<%= restaurant._id %>">back</a><br>
+	</body>
+	
+</html>

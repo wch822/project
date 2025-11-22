@@ -1,0 +1,16 @@
+{
+    "name": "project",
+    "description": "group project",
+    "author": "group 38",
+    "version": "0.0.1",
+    "dependencies": {
+        "ejs": "*",
+        "express": "*",
+        "express-formidable": "^1.2.0",
+        "mongodb": "6.9.0"
+    },
+    "engine": "node >= 16.0.0",
+    "scripts": {
+        "start": "node server"
+    }
+}

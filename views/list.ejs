@@ -1,0 +1,13 @@
+<html>
+	<body>
+		<H2>Restaurants (<%= nRestaurants %>) </H2>
+		<ul>
+			<% for (var b of restaurants) { %>
+			<li>Restaurant ID: <a href="/details?_id=<%= b._id %>"><%= b.restaurant_id %></a></li>
+			<% } %>
+		</ul>
+		<a href='/create'>Create a New Restaurant</a>
+			<p><a href='/logout'>Logout</a></p>
+	</body>
+	
+</html>

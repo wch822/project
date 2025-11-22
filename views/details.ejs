@@ -1,0 +1,12 @@
+<html>
+	<body>
+		<H2>Restaurant Details</H2>
+		<p>Restaurant ID: <%= restaurant.restaurant_id %></p>
+		<p>Restaurant Name: <%= restaurant.name %></p>
+		<br>
+		<a href="/edit?_id=<%= restaurant._id %>">edit</a><br>
+		<a href="/delete?_id=<%= restaurant._id %>">delete</a><br>
+		<a href="/">home</a>
+	</body>
+	
+</html>
